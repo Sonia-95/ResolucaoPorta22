@@ -40,7 +40,7 @@ icacls $env:USERPROFILE\.ssh\config /grant:r "$($env:USERNAME):(R,W)"
 # Edite o arquivo config
 notepad $env:USERPROFILE\.ssh\config
 
-# Altere o host:
+# Adicione o novo host:
 Host github.com
   HostName ssh.github.com
   User git
